@@ -9,13 +9,13 @@ class Nodo{
 function imprimir(cabeza){
     let i=cabeza;
     while(i!=null){
-        console.log(i.elemento)
+        console.log(i.elemento);
         i=i.siguiente;
     }
 }
 //Función para insertar elmentos en la lista
 function insertar(cabeza,elemento,posicion){
-    aux1=cabeza
+    aux1=cabeza;
     for(let x=0;x<posicion;x++){
         aux1=aux1.siguiente;
     }
